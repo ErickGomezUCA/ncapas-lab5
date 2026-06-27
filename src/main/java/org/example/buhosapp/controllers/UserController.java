@@ -25,7 +25,7 @@ public class UserController {
             @RequestParam String roleName
     ) {
         return buildResponse(
-                "User created successfully.",
+                "User created successfully..",
                 HttpStatus.CREATED,
                 userService.createUser(createUserRequest, roleName)
         );
